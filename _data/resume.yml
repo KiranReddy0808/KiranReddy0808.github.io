@@ -1,55 +1,63 @@
 title: Résumé
-name: YOUR NAME
+name: Sai Kiran Reddy Poreddy
 jobtitle: Your Job Title
 contact:
   - icon: fa-envelope
-    text: youremail@example.com
+    text: saikireddy.saikiran@gmail.com
   - icon: fa-phone-square
-    text: your-phone-num
+    text: +65 84228457
   - icon: fa-globe
-    text: your-website.com
-    link: https://crispgm.github.io/resume/resume.html
+    text: saiki.me
+    link: saiki.me
   - icon: fa-github
-    text: your-github
-    link: https://github.com/crispgm/resume
+    text: KiranReddy0808
+    link: https://github.com/KiranReddy0808
 education:
-  - university: Your First University
-    duration: Jul 2011 - Dec 2012
-    location: Consectetur adipiscing elit
-    major: Lorem ipsum dolor sit amet
-  - university: Your Second University
-    duration: Aug 2007 - Jun 2011
-    location: Ut enim ad minim veniam
-    major: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+  - university: Indian Institute of Technology Guwahati
+    duration: Jul 2016 - May 2020
+    location: Guwahati, India
+    major: BTech Computer Science and Engineering
+  - university: National University of Singapore
+    duration: Aug 2024 - Now
+    location: Singapore
+    major: MSc Financial Engineering
 skills:
-  - title: Skill Group 1
-    items: Lorem, Ipsum, Dolor, Sit, Amet
-  - title: Skill Group 2
-    items: Consectetur, Adipiscing, Elit
-  - title: Skill Group 3
-    items: Sed do, Eiusmod, Tempor, Incididunt
+  - title: Languages
+    items: Python, Javascript, Java, Typescript, C++
+  - title: Development
+    items: Node.JS, Django, Flask, Springboot, Express, FastAPI, HTML, CSS, BootStrap, PostgreSQL, MySQL, GraphQL, REST
+  - title: DevOps
+    items: Git, Github Actions, Docker, Kubernetes, AWS, Jenkins
+  - title: Miscellenous
+    items: Data Structures, Algorithms, Agile, Microservices, API Design & Management, API Gateway, Bash, Solution Architecture, Splunk
 experience:
-  - title: Job Title 1
-    duration: Apr 2016 - Now
-    company: Your 1st, Inc.
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - title: Job Title 2
-    duration: Apr 2013 - Mar 2016
-    company: Your 2nd, Inc.
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  - title: Job Title 3
-    duration: Dec 2011 - Mar 2012
-    company: Your 3rd Co, Ltd.
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - title: Software Engineer
+    duration: Sept 2020 - March 2022
+    company: HSBC Software Development India
+    description: Review business API Designs and Product Documentation. Develop API Governance Automation Process.
+  - title: Senior Software Engineer & Associate Solution Architect
+    duration: Mar 2022 - Mar 2023
+    company: HSBC Software Development India
+    description: Lead developer, Solutions Architect and SRE for API Governance Automation. Define API Standards, Patterns, and support consultancies for business, security, and related issues in API Space. Contribute to API working groups on security, design, management and event architecture topics. Review business-critical APIs to align with API Standards, Business value and Security Considerations. Contribute to improvement API Architecture Maturity.
 projects:
-  - name: Project Name 1
-    description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    contribution: Contributor.
-  - name: Project Name 2
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    contribution: Creator and maintainer.
+  - name: Pricing Mechanism for Data Service
+    description: Compared pricing mechanisms by solving for optimal solution by applying different game models considering data as service and studied Market changes. Simulated different scenarios with varying costs, and quality and generated optimal revenue, prices, and market share.
+    contribution: Bachelors Thesis Project
+  - name: SAT Solver
+    description: A Conflict-driven clause learning based boolean satisfiability solution implemented in Python. Implemented CDCL algorithm with clause learning and watched literals.
+    contribution: Creator and maintainer
+  - name: Word Search Engine
+    description: Develop a script that searches through local text and PDF documents using indexing. Implement a search engine for better results and rank the results using TF-IDF.
+    contribution: Contributor
+  - name: Aggregator API
+    description: Create an API using API standards and best practices. This API collects information from various personal sites like Steam, Anilist, Overwatch, Moon Phase, and daily random dog and cat images and returns responses in SVGs which can be used in personal sites. The API specification runs against spectral rules defined in GitHub actions.
+    contribution: Creator and maintainer
+  - name: Large Language Model Proof of Concept
+    description: Large Language Model trained using Sentence Transformer model on big basket groceries data. LLM returns a list of matches based on multiple parameters like product, usage, price, quality. The application uses Qdrant to save the vectors and uses fastAPI to retrieve the search results.
 languages:
   - name: English
     proficiency: Work proficiency
-  - name: Mandarin Chinese
+  - name: Telugu
     proficiency: Native
+  - name: Hindi
+    proficiency: Conversational
