@@ -1,6 +1,5 @@
 title: Résumé
 name: Sai Kiran Reddy Poreddy
-jobtitle: Your Job Title
 contact:
   - icon: fa-envelope
     text: saikireddy.saikiran@gmail.com
@@ -39,6 +38,10 @@ experience:
     duration: Mar 2022 - Mar 2023
     company: HSBC Software Development India
     description: Lead developer, Solutions Architect and SRE for API Governance Automation. Define API Standards, Patterns, and support consultancies for business, security, and related issues in API Space. Contribute to API working groups on security, design, management and event architecture topics. Review business-critical APIs to align with API Standards, Business value and Security Considerations. Contribute to improvement API Architecture Maturity.
+courses:
+  - name: Algorithms
+    institution: IIT Guwahati
+    code: CS 204
 projects:
   - name: Pricing Mechanism for Data Service
     description: Compared pricing mechanisms by solving for optimal solution by applying different game models considering data as service and studied Market changes. Simulated different scenarios with varying costs, and quality and generated optimal revenue, prices, and market share.
@@ -46,6 +49,9 @@ projects:
   - name: SAT Solver
     description: A Conflict-driven clause learning based boolean satisfiability solution implemented in Python. Implemented CDCL algorithm with clause learning and watched literals.
     contribution: Creator and maintainer
+    link: https://github.com/KiranReddy0808/SAT-Solver
+    icon: fa-github
+    linktext: GitHub
   - name: Word Search Engine
     description: Develop a script that searches through local text and PDF documents using indexing. Implement a search engine for better results and rank the results using TF-IDF.
     contribution: Contributor
@@ -54,6 +60,7 @@ projects:
     contribution: Creator and maintainer
   - name: Large Language Model Proof of Concept
     description: Large Language Model trained using Sentence Transformer model on big basket groceries data. LLM returns a list of matches based on multiple parameters like product, usage, price, quality. The application uses Qdrant to save the vectors and uses fastAPI to retrieve the search results.
+    contribution: Creator and maintainer
 languages:
   - name: English
     proficiency: Work proficiency
