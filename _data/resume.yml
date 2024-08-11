@@ -68,6 +68,18 @@ experience:
     company: HSBC Software Development India
     description: Lead developer, Solutions Architect and SRE for API Governance Automation. Define API Standards, Patterns, and support consultancies for business, security, and related issues in API Space. Contribute to API working groups on security, design, management and event architecture topics. Review business-critical APIs to align with API Standards, Business value and Security Considerations. Contribute to improvement API Architecture Maturity.
 courses:
+  - title: Derivatives And Fixed Income (ongoing)
+    institution: National University of Singapore
+    code: FE5101
+  - title: Portfolio Theory and Investment (ongoing)
+    institution: National University of Singapore
+    code: FE5108
+  - title: Stochastic Calculus and Quantitive Methods (ongoing)
+    institution: National University of Singapore
+    code: FE5112
+  - title: Financial Econometrics (ongoing)
+    institution: National University of Singapore
+    code: FE5209
   - title: Algorithms
     institution: IIT Guwahati
     code: CS 204
