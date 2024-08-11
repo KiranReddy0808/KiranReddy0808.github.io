@@ -131,6 +131,27 @@ layout: default
         </div>
       </section>
 
+      <section id="volunteer">
+        <div class="section-title">
+          Volunteer
+        </div>
+        <div class="section-content">
+          {% for volunteer in site.data.resume.volunteer %}
+          <div class="block">
+            <div class="block-title">
+              {{ volunteer.title }}
+            </div>
+            <div class="block-subtitle">
+              {{ volunteer.duration }} | {{ exp.company }}
+            </div>
+            <div class="block-content">
+              {{ volunteer.description }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
       <section id="languages">
         <div class="section-title">
           Languages
