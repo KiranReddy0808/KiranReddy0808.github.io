@@ -29,6 +29,35 @@ skills:
     items: Git, Github Actions, Docker, Kubernetes, AWS, Jenkins
   - title: Miscellenous
     items: Data Structures, Algorithms, Agile, Microservices, API Design & Management, API Gateway, Bash, Solution Architecture, Splunk
+certifications:
+  - title: AWS Certified Solutions Architect - Associate
+    issuer: Amazon Web Services
+    issued: Mar 2024
+    link: https://www.credly.com/badges/75067394-4009-4b7c-99a4-2b03fb7b7089
+  - title: FinTech 101
+    issuer: Saïd Business School, University of Oxford
+    issued: Dec 2023
+    link: https://drive.google.com/file/d/1jh0Wk9PikU3velJFSzBgk_zlek0DLcdW/view
+  - title: FinTech 101
+    issuer: Saïd Business School, University of Oxford
+    issued: Dec 2023
+    link: https://drive.google.com/file/d/1jh0Wk9PikU3velJFSzBgk_zlek0DLcdW/view
+  - title: Generative AI with Large Language Models
+    issuer: Coursera
+    issued: Nov 2023
+    link: https://coursera.org/verify/3EWWBWNAXNRM
+  - title: EDA Practitioner Certification
+    issuer: Solace
+    issued: Dec 2022
+    link: https://www.credly.com/badges/75c906e8-bef0-4d65-ae35-4765e4c8aaee/public_url
+  - title: Global Graduate Programme – Class of 2020
+    issuer: HSBC
+    issued: Dec 2022
+    link: https://www.credly.com/badges/ee13d62b-3593-45e2-a49e-e98f7ba92bbc
+  - title: Advanced APIs for Business
+    issuer: HSBC
+    issued: Aug 2021
+    link: https://drive.google.com/file/d/1OZKW9ttjjS03RJFSrWPKlYtV5pFg-PJ8/view
 experience:
   - title: Software Engineer
     duration: Sept 2020 - March 2022
@@ -39,49 +68,90 @@ experience:
     company: HSBC Software Development India
     description: Lead developer, Solutions Architect and SRE for API Governance Automation. Define API Standards, Patterns, and support consultancies for business, security, and related issues in API Space. Contribute to API working groups on security, design, management and event architecture topics. Review business-critical APIs to align with API Standards, Business value and Security Considerations. Contribute to improvement API Architecture Maturity.
 courses:
-  - name: Algorithms
+  - title: Algorithms
     institution: IIT Guwahati
     code: CS 204
-  - name: Computer Organization & Architecture
+  - title: Computer Organization & Architecture
     institution: IIT Guwahati
     code: CS222
-  - name: Data Structures
+  - title: Data Structures
     institution: IIT Guwahati
     code: CS201
-  - name: Databases
+  - title: Databases
     institution: IIT Guwahati
     code: CS344
-  - name: Discrete Mathematics
+  - title: Discrete Mathematics
     institution: IIT Guwahati
     code: CS202
-  - name: Optimization Methods
+  - title: Optimization Methods
     institution: IIT Guwahati
     code: CS508
-  - name: Probability Theory and Random Processes
+  - title: Probability Theory and Random Processes
     institution: IIT Guwahati
     code: MA225
-  - name: Theory of Computation
+  - title: Theory of Computation
     institution: IIT Guwahati
     code: CS301
 projects:
-  - name: Pricing Mechanism for Data Service
+  - title: Pricing Mechanism for Data Service
     description: Compared pricing mechanisms by solving for optimal solution by applying different game models considering data as service and studied Market changes. Simulated different scenarios with varying costs, and quality and generated optimal revenue, prices, and market share.
     contribution: Bachelors Thesis Project
-  - name: SAT Solver
+  - title: SAT Solver
     description: A Conflict-driven clause learning based boolean satisfiability solution implemented in Python. Implemented CDCL algorithm with clause learning and watched literals.
     contribution: Creator and maintainer
     link: https://github.com/KiranReddy0808/SAT-Solver
     icon: fa-github
     linktext: GitHub
-  - name: Word Search Engine
+  - title: Word Search Engine
     description: Develop a script that searches through local text and PDF documents using indexing. Implement a search engine for better results and rank the results using TF-IDF.
     contribution: Contributor
-  - name: Aggregator API
+    link: https://github.com/KiranReddy0808/Word-Search-Engine
+    icon: fa-github
+    linktext: GitHub
+  - title: Aggregator API
     description: Create an API using API standards and best practices. This API collects information from various personal sites like Steam, Anilist, Overwatch, Moon Phase, and daily random dog and cat images and returns responses in SVGs which can be used in personal sites. The API specification runs against spectral rules defined in GitHub actions.
     contribution: Creator and maintainer
-  - name: Large Language Model Proof of Concept
+    link: https://github.com/KiranReddy0808/Pegasus
+    icon: fa-github
+    linktext: GitHub
+  - title: Large Language Model Proof of Concept
     description: Large Language Model trained using Sentence Transformer model on big basket groceries data. LLM returns a list of matches based on multiple parameters like product, usage, price, quality. The application uses Qdrant to save the vectors and uses fastAPI to retrieve the search results.
     contribution: Creator and maintainer
+    link: https://github.com/KiranReddy0808/llm-poc
+    icon: fa-github
+    linktext: GitHub
+  - title: GradBank
+    description: Solution based on pain points in present banking apps with Functionalities to provide innovative, achievable and relevant solution to capture Gen Z market. Submitted the solution as part of GradHack 2020 and secured top 6 place in the competition.
+    contribution: Contributor
+    link: https://github.com/KiranReddy0808/GradBank
+    icon: fa-github
+    linktext: GitHub
+achievements:
+  - title: Enterprise Engineer Hackathon HSBC 
+    year: 2023
+    description: Secured 1st place in the Enterprise Engineer Hackathon 2023 conducted by HSBC. Created a solution which documents meeting minutes on confluence, manages calendar invites.
+  - title: Rethink Reuse Hackathon HSBC 
+    year: 2022
+    description: Top 3 team in Rethink Reuse Hackathon. Presented the solution at Global Architecture Symposium 2022 in HSBC
+  - title: GradHack
+    year: 2020
+    description: Secured 6th place in the GradHack 2020 conducted by HSBC. Conducted a case study and designed a solution addressing pain points in current banking systems hindering capturing Generation Z market.
+  - title: Joint Entrance Examination (JEE) Advanced 
+    year: 2016
+    description: Secured 666th rank in JEE Advanced 2016.
+  - title: Joint Entrance Examination (JEE) Mains 
+    year: 2016
+    description: Secured 155th rank in JEE Mains 2016.
+  - title: Kishore Vaigyanik Protsahan Yojana (KVPY) 
+    year: 2015
+    description: Awarded Kishore Vaigyanik Protsahan Yojana Fellowship by Indian Institute of Sciences (IISc) 2015 department of Science and Technology, Government of India.
+  - title: Indian National Astronomy Olympiad (INAO) 
+    year: 2014
+    description: Ranked top 20 in INAO 2014. Attended the Orientation Cum Selection Camp (OCSC) for International Olympiad.
+  - title: Regional Mathematics Olympiad (RMO) 
+    year: 2014
+    description: Cleared Telangana region RMO 2014. Was selected to appear for Indian National Mathematics Olympiad (INMO).
+
 volunteer:
   - title: National Events Co-ordinator
     duration: Sept 2018 - Sept 2019
@@ -99,9 +169,6 @@ volunteer:
     organization: Guwahati Half Marathon
     duration: "2017,18,19"
     description: Annually conducted by students of IIT Guwahati as a part of Techniche. Every year a theme is selected to raise awareness about problems in North East India. Key responsibilities include supporting the logistics during the marathon and assisting with its smooth conduction.
-    
-    
-
 languages:
   - name: English
     proficiency: Work proficiency

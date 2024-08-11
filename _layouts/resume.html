@@ -65,13 +65,30 @@ layout: default
           {% endfor %}
         </div>
       </section>
+      <section id="certifications">
+        <div class="section-title">
+          Certification
+        </div>
+        <div class="section-content">
+          {% for certification in site.data.resume.certifications %}
+          <div class="block">
+            <div class="block-title">
+              {{ certification.title }}
+            </div>
+            <div class="block-subtitle">
+                {{certification.issuer}} | issued : {{certification.issued}}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
       <section id="courses">
         <div class="section-title">Courses</div>
         <div class="section-content">
           {% for course in site.data.resume.courses %}
           <div class="block">
             <div class="block-title">
-                {{ course.name }}
+                {{ course.title }}
             </div>
             <div class="block-subtitle">
                 {{ course.code }} - {{course.institution}}
@@ -110,7 +127,7 @@ layout: default
           {% for project in site.data.resume.projects %}
           <div class="block">
             <div class="block-title">
-              {{ project.name }}
+              {{ project.title }}
             </div>
             <div class="block-subtitle">
               {{ project.contribution }} 
@@ -130,7 +147,26 @@ layout: default
           {% endfor %}
         </div>
       </section>
-
+      <section id="achievements">
+        <div class="section-title">
+            Achievement
+        </div>
+        <div class="section-content">
+          {% for achievement in site.data.resume.achievements %}
+          <div class="block">
+            <div class="block-title">
+              {{ achievement.title }}
+            </div>
+            <div class="block-subtitle">
+              {{ achievement.year }}
+            </div>
+            <div class="block-content">
+              {{ achievement.description }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
       <section id="volunteer">
         <div class="section-title">
           Volunteer
