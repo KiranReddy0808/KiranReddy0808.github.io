@@ -82,6 +82,23 @@ projects:
   - name: Large Language Model Proof of Concept
     description: Large Language Model trained using Sentence Transformer model on big basket groceries data. LLM returns a list of matches based on multiple parameters like product, usage, price, quality. The application uses Qdrant to save the vectors and uses fastAPI to retrieve the search results.
     contribution: Creator and maintainer
+volunteer:
+  - title: National Events Co-ordinator, Techniche
+    duration: Sept 2018 - Sept 2019
+    description: Lead Ideation, planning, budgeting and execution of competitive events with a team of over 100 members, 30+ events, and 30k+ participants.
+  - title: Core Team Member, Robotics Module
+    duration: Sept 2017 - Sept 2018
+    description: Ideation of problem statements. Execution of robotics events including pan India event Escalade conducted in 14 cities.
+  - title: Welfare Secretary, Lohit Hostel
+    duration: Mar 2018 - Mar 2019
+    description: Responsibilities include the mental and physical well-being of Hostel Boarders. Introduced a mentorship program for first-year students, led the anti-ragging committee, protecting first-year students, and played a role in driving conversations to implement welfare initiatives.
+  - title: Organizer, Guwahati Half Marathon
+    duration: 2017,18,19
+    description: Annually conducted by students of IIT Guwahati as a part of Techniche. Every year a theme is selected to raise awareness about problems in North East India. Key responsibilities include
+supporting the logistics during the marathon and assisting with its smooth conduction.
+    
+    
+
 languages:
   - name: English
     proficiency: Work proficiency
