@@ -42,6 +42,27 @@ courses:
   - name: Algorithms
     institution: IIT Guwahati
     code: CS 204
+  - name: Computer Organization & Architecture
+    institution: IIT Guwahati
+    code: CS222
+  - name: Data Structures
+    institution: IIT Guwahati
+    code: CS201
+  - name: Databases
+    institution: IIT Guwahati
+    code: CS344
+  - name: Discrete Mathematics
+    institution: IIT Guwahati
+    code: CS202
+  - name: Optimization Methods
+    institution: IIT Guwahati
+    code: CS508
+  - name: Probability Theory and Random Processes
+    institution: IIT Guwahati
+    code: MA225
+  - name: Theory of Computation
+    institution: IIT Guwahati
+    code: CS301
 projects:
   - name: Pricing Mechanism for Data Service
     description: Compared pricing mechanisms by solving for optimal solution by applying different game models considering data as service and studied Market changes. Simulated different scenarios with varying costs, and quality and generated optimal revenue, prices, and market share.
